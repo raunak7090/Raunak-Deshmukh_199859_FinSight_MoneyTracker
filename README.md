@@ -38,15 +38,6 @@ npm -v
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/raunak7090/Raunak-Deshmukh_199859_FinSight_MoneyTracker.git
-cd Raunak-Deshmukh_199859_FinSight_MoneyTracker
-```
-
----
-
 ## 📌 Running **Money Tracker** (Next.js + Firebase)
 
 Project path: `Money Tracker/`
@@ -58,32 +49,7 @@ cd "Money Tracker"
 npm install
 ```
 
-### 2. Environment Variables
-
-There is a `.env.local.example` file with all required environment keys for Firebase.
-
-Create your own `.env.local`:
-
-```bash
-cp .env.local.example .env.local   # on Windows PowerShell: copy .env.local.example .env.local
-```
-
-Fill in values:
-
-```env
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-
-FIREBASE_ADMIN_PROJECT_ID=your_project_id
-FIREBASE_ADMIN_CLIENT_EMAIL=firebase-adminsdk-xxxxx@your_project.iam.gserviceaccount.com
-FIREBASE_ADMIN_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
-```
-
-### 3. Run in Development
+### 2. Run in Development
 
 ```bash
 npm run dev
@@ -113,23 +79,7 @@ cd insightful-wallets
 npm install
 ```
 
-### 2. Environment Variables (Optional / Backend Integration)
-
-The frontend reads:
-
-- `VITE_API_BASE_URL` – API base URL (defaults to `http://localhost:3000` if not set)
-- `VITE_FIREBASE_API_KEY` – used for token refresh with Firebase
-
-Create a `.env` file in `insightful-wallets/` if needed:
-
-```env
-VITE_API_BASE_URL=http://localhost:3000
-VITE_FIREBASE_API_KEY=your_firebase_web_api_key
-```
-
-> If you run a custom backend, point `VITE_API_BASE_URL` to your backend URL.
-
-### 3. Run in Development
+### 2. Run in Development
 
 ```bash
 npm run dev
