@@ -1,4 +1,4 @@
-# FinSight MoneyTracker – Monorepo
+# FinSight MoneyTracker 
 
 This repository contains two separate frontend projects:
 
@@ -36,7 +36,7 @@ npm -v
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started How to run the project
 
 ## 📌 Running **Money Tracker** (Next.js + Firebase)
 
@@ -88,7 +88,8 @@ npm run dev
 Vite will show the dev server URL, commonly:
 
 - http://localhost:5173 or http://localhost:8080 (see terminal output)
-
+---
+Click on the link and open in any browser
 ### 4. Build & Preview
 
 ```bash
